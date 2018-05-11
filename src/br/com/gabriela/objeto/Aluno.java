@@ -54,7 +54,7 @@ public class Aluno {
     public String toString() {
         String totalNotas = "";
         for(Nota nota: notas){
-            
+          totalNotas = "\n" ; 
         }
         return "Aluno{" + "nome=" + nome + ", matricula=" + matricula + ", notas=" + notas + '}';
     }

@@ -307,7 +307,7 @@ public class Principal extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this,"Você Digitou um Caracter Inválido."+nfe);
             throw new RuntimeException();
         }       
-     
+        
         a = new Aluno(nome, matricula);
         JOptionPane.showMessageDialog(this,a.toString());
              

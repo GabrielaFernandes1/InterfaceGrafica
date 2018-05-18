@@ -18,13 +18,7 @@ public class Nota {
         this.disciplina = disciplina;
         this.tipo = tipo;
         this.nota = nota;
-    }
-
-    @Override
-    public String toString() {
-        return "Nota{" + "disciplina=" + disciplina + ", tipo=" + tipo + ", nota=" + nota + '}';
-    }
-   
+    }  
    
 
     public String getDisciplina() {
@@ -51,6 +45,11 @@ public class Nota {
         this.nota = nota;
     }
 
+    @Override
+    public String toString() {
+        return "\n Nota{" + "Disciplina=" + disciplina + ", Tipo=" + tipo + ", Nota=" + nota + '}';
+    }
+ 
     
     
 }
